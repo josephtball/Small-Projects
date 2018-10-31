@@ -1,0 +1,48 @@
+* {
+    text-align: center;
+}
+main {
+    margin-top: 3em;
+}
+#calculator {
+    max-width: 400px;
+    margin: auto;
+    background: darkgray;
+    border-radius: 2%;
+    padding: 2em 3em;
+    box-shadow: 5px 5px 10px;
+}
+#display {
+    background: white;
+    padding: 1em;
+    text-align: right;
+    vertical-align: middle;
+}
+#keypad {
+    background: lightgray;
+}
+.number-key {
+    padding: 1em;
+}
+.number-key:hover {
+    background: gray;
+}
+.function-key {
+    background: lightblue;
+    padding: 1em;
+}
+.function-key:hover {
+    background: gray;
+}
+#clear {
+    background: red;
+}
+#clear:hover {
+    background: gray;
+}
+#solve {
+    background: green;
+}
+#solve:hover {
+    background: gray;
+}
